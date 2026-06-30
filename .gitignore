@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Model artifacts (large files)
+models/*.keras
+models/*.h5
+models/*.pkl
+outputs/features/*.pkl
+
+# Dataset (large — download separately)
+dataset/Flicker8k_Dataset/
+dataset/*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+outputs/logs/*.log
